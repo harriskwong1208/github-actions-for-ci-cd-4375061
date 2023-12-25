@@ -26,7 +26,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-        cache-dependency-path: ../../Ch02/02_03_ci_for_javascript/package-lock.json
+        cache-dependency-path: C:\Users\harri\Desktop\github-actions-for-ci-cd-4375061\Ch02\02_03_ci_for_javascript\package-lock.json
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
